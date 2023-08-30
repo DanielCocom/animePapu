@@ -1,0 +1,167 @@
+/* Estilos generales */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgb(74, 110, 176);
+  color: white;
+}
+#logo{
+  width: 90px;
+  height: 90px;
+}
+
+#contenedor-Pricipla{
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+/* Contenedor secundario */
+#container {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 20px; 
+}
+#muestra-msg{
+  text-align: center;
+}
+
+
+#header{
+  display: flex;
+  justify-content: flex-end;
+}
+#nav-container {
+  display: flex;
+  align-items: center;
+  background-color: #0799b6;
+}
+
+#animes {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 25px;
+  max-width: 1200px; 
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#anime-favoriteContainer {
+  display: none;
+  flex-direction: column;
+  width: 200px;
+  padding: 40px;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  margin-left: 60px;
+  background-color: blue;
+  border-radius: 3px;
+  padding: 2px;
+  border: 2px solid black;
+}
+.buton-Delete {
+  cursor: pointer;
+  background-color: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.msg {
+  color: white;
+}
+#containerFav{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas por fila */
+  gap: 30px;
+}
+
+
+.animesDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  width: 200px;
+  height: 100%; 
+  padding: auto; 
+}
+
+.animeTitle {
+  font-weight: bold;
+  margin: 1;
+
+}
+
+.imageContainer {
+  height: 300px; 
+  width: 100%; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+  overflow: hidden;
+}
+
+.animeImage {
+  border-radius: 8px;
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+}
+
+.imageFavorite{
+  width: 100%;
+}
+.animeScore,
+.animeEpisode {
+  color: black;
+  margin: 4px ;
+  border-radius: 9px;
+  padding: 2px;
+  background-color: #9cd2d3;
+}
+
+.animeFavContainer{
+  margin-bottom: 30px;
+  width: 60%;
+}
+#images{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 5px;
+
+}
+
+input[type="text"] {
+  padding: 8px;
+  border: 2px solid blue;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.agregar {
+  background-color: blue;
+  color: white;
+}
+
+
+.buton-Delete {
+  background-color: red;
+  color: white;
+}
+

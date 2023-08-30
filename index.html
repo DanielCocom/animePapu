@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="animePapu.css" />
+    <title>animeCrack</title>
+  </head>
+  <body>
+    <div id="Header">
+      <nav id="nav-container">
+        <h2 id="title-page">AnimePapu</h2>
+        <input id="animeName" type="text" placeholder="anime, manga, novelas" />
+        <button id="button">Buscar</button>
+        <a href="/segundo Crud/tercer.html">CRUD Mangas</a>
+      </nav>
+      <button id="verFavoritos">Mostrar/ocultar favoritos</button>
+    </div>
+    <div id="contenedor-Principal">
+      <div id="muestra-msg"><h3>Top Anime </h3></div>
+      <main id="container">
+        <section id="animes"></section>
+        <div id="anime-favoriteContainer">
+          <input
+            id="animeFavoriteName"
+            type="text"
+            placeholder="Ingresa el nombre del anime"
+          />
+          <button id="listAnime">Agregar a Favoritos</button>
+
+          <div id="favorites-container" class="hidden">
+            <h4>Animes Favoritos</h4>
+            <div id="images"> </div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
